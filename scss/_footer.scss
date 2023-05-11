@@ -1,0 +1,242 @@
+/*------------------FOOTER------------------*/
+.footer {
+  background-color: #316099;
+  width: 100%;
+}
+.footer__inner {
+  width: 495px;
+}
+.main__footer__up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #316099;
+  padding-top: 91px;
+  padding-bottom: 96px;
+}
+.footer__description {
+  width: 495px;
+}
+.main__footer__title {
+  color: white;
+  width: 340px;
+  text-align: left;
+  padding-bottom: 32px;
+}
+.main__footer__text {
+  color: #fff;
+  opacity: 60%;
+}
+.main__footer__button {
+  width: 237px;
+  height: 56px;
+  background-color: #5a98d0;
+  color: #fff;
+  border: none;
+}
+.main__footer__down {
+  padding-bottom: 64px;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  list-style-position: inside;
+}
+.footer__list__item {
+  width: 315px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-right: 30px;
+}
+.item__link {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__rights {
+  opacity: 40%;
+  margin-top: 64px;
+  color: #fff;
+}
+
+/*------------------------MEDIA------------------------*/
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .main__header__bg {
+    background-position: right 350px;
+    z-index: 5;
+  }
+  .main__inner__item__block {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 127px;
+  }
+  .main__inner__item {
+    margin-bottom: 32px;
+  }
+  .main__footer__up {
+    padding: 47px 90px 64px 90px;
+    margin: 0;
+  }
+  .footer__description {
+    width: 336px;
+  }
+  .main__footer__button {
+    width: 133px;
+    height: 32px;
+  }
+  .main__footer__down {
+    padding: 47px 90px 64px 90px;
+    margin: 0;
+  }
+  .footer__list {
+    flex-direction: column;
+  }
+  .contact__us {
+    margin-top: 40px;
+  }
+  .contact__us__text {
+    width: 520px;
+  }
+  .contacts__inner__info {
+    flex-direction: column;
+  }
+  .contacts__inner__left {
+    padding-bottom: 64px;
+  }
+  .contacts__inner__right {
+    width: 520px;
+    height: 780px;
+  }
+  .contacts__inner__map {
+    margin-bottom: 64px;
+  }
+}
+@media (max-width: 667px) {
+  .container {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .main__header {
+    min-height: 376px;
+    padding: 16px 16px 0 16px;
+  }
+  .main__title {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__header__bg {
+    background-image: none;
+  }
+  .main__title__header {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .main__title__text {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .main__title__button {
+    width: 108px;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 8px;
+    margin-bottom: 41px;
+  }
+  .main__inner {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+  .main__inner__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .main__inner__item__block {
+    padding: 0;
+    margin: 32px 0 0 0;
+  }
+  .main__inner__item {
+    padding: 32px 20px;
+  }
+  .main__projects__title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+  }
+  .main__projects__text {
+    margin-bottom: 82px;
+  }
+  .projects__parent {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    margin-bottom: 64px;
+  }
+  .item2 {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 16px;
+  }
+  .projects__item__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .projects__item__text__2 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .main__footer__up {
+    flex-direction: column;
+    padding: 18px 16px 45px 16px;
+  }
+  .main__footer__title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .main__footer__text {
+    text-align: center;
+  }
+  .main__footer__button {
+    margin-top: 40px;
+  }
+  .main__footer__down {
+    padding: 32px 15px;
+  }
+  .footer__list {
+    margin: 0;
+  }
+  .footer__rights {
+    text-align: center;
+    margin-top: 32px;
+  }
+  .contact__us {
+    padding-bottom: 46px;
+  }
+  .contact__us__text {
+    width: 341px;
+    font-style: 16px;
+    line-height: 30px;
+  }
+  .contacts__inner__left {
+    margin-bottom: 32px;
+  }
+  .contacts__inner__right {
+    min-width: 340px;
+    min-height: 514px;
+  }
+  .contacts__inner__map {
+    margin: 32px 0;
+  }
+}
